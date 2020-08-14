@@ -30,3 +30,23 @@ This project will provide you NSE Stocks data scrapping simple API developed usi
 3. 🔨 Hack away!
 4. 🔃 Create a new pull request 
 
+
+## Support
+
+Reach out to me at one of the following places!
+
+- Website at <a href="http://pishangujeniya.com" target="_blank">`pishangujeniya.com`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/pishangujeniya/" target="_blank">`pishangujeniya`</a>
+
+---
+
+## Donations
+
+<a href="http://pishangujeniya.com"><img src="https://www.worldfuturecouncil.org/wp-content/uploads/2018/09/Donate-Button-HEART.png" title="Donate ClipSync Developer" alt="Donate ClipSync Developer" width="170px" height="60px"></a>
+> Donate me on _+91 88 66 33 01 05_ via <a href="http://paytm.com" target="_blank">**PayTm**</a>
+
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/pishangujeniya/clipsync-windows/blob/master/LICENSE)
