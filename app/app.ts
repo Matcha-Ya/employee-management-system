@@ -4,4 +4,5 @@ import * as path from 'path';
 import { BunyanHelper } from './helpers/BunyanHelper';
 import { AccountsRoutes } from './routes/AccountsRoutes';
 import * as cors from "cors";
-import { CompanyRoutes } from './
+import { CompanyRoutes } from './routes/CompanyRoutes';
+import { StockHistoryRoutes } from './
