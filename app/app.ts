@@ -9,4 +9,7 @@ import { StockHistoryRoutes } from './routes/StockHistoryRoutes';
 
 export class App {
 
-    public app: e
+    public app: express.Application = express();
+
+    constructor() {
+        this.a
