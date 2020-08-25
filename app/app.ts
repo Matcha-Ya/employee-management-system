@@ -5,4 +5,8 @@ import { BunyanHelper } from './helpers/BunyanHelper';
 import { AccountsRoutes } from './routes/AccountsRoutes';
 import * as cors from "cors";
 import { CompanyRoutes } from './routes/CompanyRoutes';
-import { StockHistoryRoutes } from './
+import { StockHistoryRoutes } from './routes/StockHistoryRoutes';
+
+export class App {
+
+    public app: e
