@@ -12,4 +12,5 @@ export class App {
     public app: express.Application = express();
 
     constructor() {
-        this.a
+        this.appConfig();
+        this.app.use('/accounts', new AccountsRoutes(express).
