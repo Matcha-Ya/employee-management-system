@@ -15,4 +15,9 @@ export class App {
         this.appConfig();
         this.app.use('/accounts', new AccountsRoutes(express).router);
         this.app.use('/company', new CompanyRoutes(express).router);
-        this.app.use('/stock', new StockHistoryRoute
+        this.app.use('/stock', new StockHistoryRoutes(express).router);
+    }
+
+    private appConfig(): void {
+
+        
