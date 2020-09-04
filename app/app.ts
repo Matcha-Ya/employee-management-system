@@ -20,4 +20,6 @@ export class App {
 
     private appConfig(): void {
 
-        
+        this.app.enable('trust proxy');
+        // this.app.use(new helmet());
+ 
