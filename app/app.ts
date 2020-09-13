@@ -28,4 +28,6 @@ export class App {
         //     stream: requestLogStream
         // }));
         this.app.use((request, response, next) => {
-            BunyanHelper.requestLogger.warn({ 
+            BunyanHelper.requestLogger.warn({ req: request, res: response }, "Request Response");
+            next();
+    
