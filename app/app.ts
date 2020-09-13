@@ -27,4 +27,5 @@ export class App {
         // this.app.use(morgan.default("combined", {
         //     stream: requestLogStream
         // }));
-        this.app.use(
+        this.app.use((request, response, next) => {
+            BunyanHelper.requestLogger.warn({ 
