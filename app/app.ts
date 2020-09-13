@@ -30,4 +30,6 @@ export class App {
         this.app.use((request, response, next) => {
             BunyanHelper.requestLogger.warn({ req: request, res: response }, "Request Response");
             next();
-    
+        })
+        this.app.use(bodyParser.json());
+        this.app.use(bodyP
