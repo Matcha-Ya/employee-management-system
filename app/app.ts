@@ -34,4 +34,6 @@ export class App {
         this.app.use(bodyParser.json());
         this.app.use(bodyParser.urlencoded({ extended: false }));
 
-        // Ran
+        // Ran on all routes
+        this.app.use((req, res, next) => {
+            r
