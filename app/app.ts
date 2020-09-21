@@ -37,4 +37,5 @@ export class App {
         // Ran on all routes
         this.app.use((req, res, next) => {
             res.setHeader('Cache-Control', 'no-cache, no-store');
-            res.header("Access-Control-Allow-Origin", "*"); // update to match t
+            res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+            res.header("Access-Cont
