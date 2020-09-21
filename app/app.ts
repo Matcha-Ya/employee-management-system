@@ -36,4 +36,5 @@ export class App {
 
         // Ran on all routes
         this.app.use((req, res, next) => {
-            r
+            res.setHeader('Cache-Control', 'no-cache, no-store');
+            res.head
