@@ -39,4 +39,8 @@ export class App {
             res.setHeader('Cache-Control', 'no-cache, no-store');
             res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-            res.header('Access-Control-Allow-Methods',
+            res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,PATCH,OPTIONS');
+            next();
+        });
+
+    
