@@ -43,4 +43,5 @@ export class App {
             next();
         });
 
-    
+        this.app.use(cors.default())
+        this.app.options('
