@@ -47,4 +47,13 @@ export class App {
         this.app.options('*', cors.default())
 
         // serving static files 
-        // this.ap
+        // this.app.use(express.static('public'));
+    }
+
+}
+
+// export default new App().app;
+
+/*
+
+// 
