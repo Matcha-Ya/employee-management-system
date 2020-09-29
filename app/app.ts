@@ -44,4 +44,7 @@ export class App {
         });
 
         this.app.use(cors.default())
-        this.app.options('
+        this.app.options('*', cors.default())
+
+        // serving static files 
+        // this.ap
