@@ -62,4 +62,10 @@ export class App {
 // import helmet = require('helmet');
 
 // require the routes
-const accountsRoute 
+const accountsRoute = require('./routes/accounts');
+
+
+let app = express();
+
+
+        this.app
