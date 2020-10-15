@@ -70,4 +70,6 @@ let app = express();
 
         this.app.enable('trust proxy');
         this.app.use(helmet());
-        this
+        this.app.set('port', 1111);
+        this.app.use(bodyParser.json());
+    
