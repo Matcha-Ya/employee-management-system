@@ -68,4 +68,6 @@ const accountsRoute = require('./routes/accounts');
 let app = express();
 
 
-        this.app
+        this.app.enable('trust proxy');
+        this.app.use(helmet());
+        this
