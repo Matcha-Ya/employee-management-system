@@ -72,4 +72,8 @@ let app = express();
         this.app.use(helmet());
         this.app.set('port', 1111);
         this.app.use(bodyParser.json());
-    
+        this.app.use(bodyParser.urlencoded({ extended: false }));
+
+
+
+// setup the rou
