@@ -76,4 +76,10 @@ let app = express();
 
 
 
-// setup the rou
+// setup the routes
+// app.use('/', accountsRoute);
+
+
+
+
+// // catch 404 and forward to error handler
