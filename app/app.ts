@@ -97,4 +97,6 @@ let app = express();
 // will print stacktrace
 if (app.get('env') === 'development') {
     app.use((err, req, res, next) => {
-        console.err
+        console.error(colors.red(err.stack));
+        res.status(err.status || 500);
+   
