@@ -95,4 +95,6 @@ let app = express();
 
 // development error handler
 // will print stacktrace
-if (app.get('env') === 'develop
+if (app.get('env') === 'development') {
+    app.use((err, req, res, next) => {
+        console.err
