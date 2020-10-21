@@ -87,4 +87,10 @@ let app = express();
 //     res.status(404);
 //     res.send('No API Found');
 //     // const err = new Error('Not Found');
-// 
+//     // err.status = 404;
+//     // next(err);
+// });
+
+// error handlers
+
+// devel
