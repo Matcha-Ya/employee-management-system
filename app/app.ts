@@ -93,4 +93,6 @@ let app = express();
 
 // error handlers
 
-// devel
+// development error handler
+// will print stacktrace
+if (app.get('env') === 'develop
