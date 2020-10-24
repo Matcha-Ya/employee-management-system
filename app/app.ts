@@ -108,4 +108,5 @@ if (app.get('env') === 'development') {
     });
 }
 
-app.on('un
+app.on('uncaughtException', (err) => {
+    console.error(colors.red(err.stack.toStr
