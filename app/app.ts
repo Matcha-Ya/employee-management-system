@@ -102,4 +102,10 @@ if (app.get('env') === 'development') {
         // res.render('error', {
         //     message: err.message,
         //     error: err,
-        //     helpers: expressHandlebars.he
+        //     helpers: expressHandlebars.helpers
+        // });
+        res.send();
+    });
+}
+
+app.on('un
