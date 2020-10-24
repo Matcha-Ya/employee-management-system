@@ -99,4 +99,6 @@ if (app.get('env') === 'development') {
     app.use((err, req, res, next) => {
         console.error(colors.red(err.stack));
         res.status(err.status || 500);
-   
+        // res.render('error', {
+        //     message: err.message,
+        //
