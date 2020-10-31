@@ -109,4 +109,11 @@ if (app.get('env') === 'development') {
 }
 
 app.on('uncaughtException', (err) => {
-    console.error(colors.red(err.stack.toStr
+    console.error(colors.red(err.stack.toString()));
+    process.exit(2);
+});
+
+
+// Start the app
+try {
+    app.li
