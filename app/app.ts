@@ -119,4 +119,6 @@ try {
     app.listen(app.get('port'));
     app.emit('appStarted');
     console.log(colors.green('api running on host: http://localhost:' + app.get('port')));
-} catch
+} catch (ex) {
+    console.error(colors.red('Error starting expressCart app:' + ex));
+    pr
