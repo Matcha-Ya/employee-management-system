@@ -116,4 +116,6 @@ app.on('uncaughtException', (err) => {
 
 // Start the app
 try {
-    app.li
+    app.listen(app.get('port'));
+    app.emit('appStarted');
+    console.log(col
