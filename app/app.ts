@@ -118,4 +118,5 @@ app.on('uncaughtException', (err) => {
 try {
     app.listen(app.get('port'));
     app.emit('appStarted');
-    console.log(col
+    console.log(colors.green('api running on host: http://localhost:' + app.get('port')));
+} catch
