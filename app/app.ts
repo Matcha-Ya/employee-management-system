@@ -121,4 +121,7 @@ try {
     console.log(colors.green('api running on host: http://localhost:' + app.get('port')));
 } catch (ex) {
     console.error(colors.red('Error starting expressCart app:' + ex));
-    pr
+    process.exit(2);
+}
+
+*/
