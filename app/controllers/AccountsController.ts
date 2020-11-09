@@ -7,4 +7,6 @@ import * as path from 'path';
 import e = require('express');
 import { ProceduresDbHelper } from '../helpers/DbHelpers/ProceduresDbHelper';
 
-export c
+export class AccountsController {
+    private globalHelper: GlobalHelper;
+ 
