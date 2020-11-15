@@ -14,4 +14,6 @@ export class AccountsController {
     private globalConfig: any;
 
     constructor() {
-        this.globalHelper = new GlobalHelper()
+        this.globalHelper = new GlobalHelper();
+        this.accountDbHelper = new AccountsDbHelper();
+        this.p
