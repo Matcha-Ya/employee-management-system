@@ -17,4 +17,7 @@ export class AccountsController {
         this.globalHelper = new GlobalHelper();
         this.accountDbHelper = new AccountsDbHelper();
         this.procedureDbHelper = new ProceduresDbHelper();
-        this.globalConfi
+        this.globalConfig = this.globalHelper.getConfig("global");
+    }
+
+    public async signUpUser(req: Si
