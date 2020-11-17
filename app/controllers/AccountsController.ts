@@ -20,4 +20,5 @@ export class AccountsController {
         this.globalConfig = this.globalHelper.getConfig("global");
     }
 
-    public async signUpUser(req: Si
+    public async signUpUser(req: SignUpRequestModel): Promise<CustomResponse> {
+        var customRes
