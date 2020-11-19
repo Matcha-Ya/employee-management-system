@@ -21,4 +21,7 @@ export class AccountsController {
     }
 
     public async signUpUser(req: SignUpRequestModel): Promise<CustomResponse> {
-        var customRes
+        var customResponse = new CustomResponse();
+        try {
+
+            var insert
