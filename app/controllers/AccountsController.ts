@@ -24,4 +24,5 @@ export class AccountsController {
         var customResponse = new CustomResponse();
         try {
 
-            var insert
+            var insertUserResult = await this.accountDbHelper.insertUser(
+              
