@@ -25,4 +25,7 @@ export class AccountsController {
         try {
 
             var insertUserResult = await this.accountDbHelper.insertUser(
-              
+                req.first_name,
+                req.last_name,
+                req.email_id,
+          
