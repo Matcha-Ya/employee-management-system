@@ -28,4 +28,7 @@ export class AccountsController {
                 req.first_name,
                 req.last_name,
                 req.email_id,
-          
+                req.mobile_number,
+                req.password);
+
+            if (insertUserRes
