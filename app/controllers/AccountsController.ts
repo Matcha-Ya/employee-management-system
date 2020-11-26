@@ -31,4 +31,6 @@ export class AccountsController {
                 req.mobile_number,
                 req.password);
 
-            if (insertUserRes
+            if (insertUserResult.isError) {
+                customResponse.error_code = 500;
+          
