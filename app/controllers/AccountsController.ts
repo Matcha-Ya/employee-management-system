@@ -33,4 +33,4 @@ export class AccountsController {
 
             if (insertUserResult.isError) {
                 customResponse.error_code = 500;
-          
+                customResponse.error_messages = insertUserResult.result 
