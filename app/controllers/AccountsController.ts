@@ -36,4 +36,5 @@ export class AccountsController {
                 customResponse.error_messages = insertUserResult.result instanceof Array ? 'Failed to Sign Up' : insertUserResult.result;
                 customResponse.result = false;
             } else {
-    
+                // Successfully inserted the user row
+                cus
