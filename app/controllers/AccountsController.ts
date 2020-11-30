@@ -37,4 +37,5 @@ export class AccountsController {
                 customResponse.result = false;
             } else {
                 // Successfully inserted the user row
-                cus
+                customResponse.error_code = 200;
+                customResponse.result 
