@@ -42,4 +42,6 @@ export class AccountsController {
             }
 
         } catch (error) {
-            BunyanHelper.errorLog
+            BunyanHelper.errorLogger.error(error);
+            console.error(error);
+            customRespons
