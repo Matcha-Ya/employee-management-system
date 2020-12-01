@@ -44,4 +44,5 @@ export class AccountsController {
         } catch (error) {
             BunyanHelper.errorLogger.error(error);
             console.error(error);
-            customRespons
+            customResponse.error_code = 500;
+            customResponse.error_messages = "Something went wr
