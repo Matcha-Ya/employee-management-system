@@ -38,4 +38,8 @@ export class AccountsController {
             } else {
                 // Successfully inserted the user row
                 customResponse.error_code = 200;
-                customResponse.result 
+                customResponse.result = true;
+            }
+
+        } catch (error) {
+            BunyanHelper.errorLog
