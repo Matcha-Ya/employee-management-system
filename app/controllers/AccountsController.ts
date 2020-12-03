@@ -48,4 +48,7 @@ export class AccountsController {
             customResponse.error_messages = "Something went wrong";
             customResponse.result = error;
         } finally {
-     
+            return customResponse;
+        }
+    }
+}
