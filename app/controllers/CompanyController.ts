@@ -94,3 +94,16 @@ export class CompanyController {
                         customResponse.result = null;
                     }
                 );
+
+        } catch (error) {
+            BunyanHelper.errorLogger.error(error);
+            console.error(error);
+            customResponse.error_code = 500;
+            customResponse.error_messages = "Something went wrong";
+            customResponse.result = error;
+        } finally {
+            return customResponse;
+        }
+    }
+}
+
