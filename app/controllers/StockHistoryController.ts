@@ -8,4 +8,6 @@ import { CompaniesDbHelper, CompaniesSingleRow, CompaniesOtherDataJson } from '.
 import { ScrapStockHistory } from '../models/StockHistoryModels';
 import { StocksHistorySingleRow, StockHistoryDbHelper } from '../helpers/DbHelpers/StockHistoryDbHelper';
 
-export class StockHistory
+export class StockHistoryController {
+    private globalHelper: GlobalHelper;
+    private compan
