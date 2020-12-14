@@ -11,4 +11,8 @@ import { StocksHistorySingleRow, StockHistoryDbHelper } from '../helpers/DbHelpe
 export class StockHistoryController {
     private globalHelper: GlobalHelper;
     private companiesDbHelper: CompaniesDbHelper;
-    private stockHistoryDbHelper: S
+    private stockHistoryDbHelper: StockHistoryDbHelper;
+    private globalConfig: any;
+
+    constructor() {
+        this.globalHelpe
