@@ -15,4 +15,5 @@ export class StockHistoryController {
     private globalConfig: any;
 
     constructor() {
-        this.globalHelpe
+        this.globalHelper = new GlobalHelper();
+        this.companiesDbHelper = new 
