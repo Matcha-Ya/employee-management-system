@@ -18,4 +18,7 @@ export class StockHistoryController {
         this.globalHelper = new GlobalHelper();
         this.companiesDbHelper = new CompaniesDbHelper();
         this.stockHistoryDbHelper = new StockHistoryDbHelper();
-        this.globalConfig = this.globalHelper.
+        this.globalConfig = this.globalHelper.getConfig("global");
+    }
+
+    public async scrapStockHistory(
