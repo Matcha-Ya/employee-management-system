@@ -21,4 +21,5 @@ export class StockHistoryController {
         this.globalConfig = this.globalHelper.getConfig("global");
     }
 
-    public async scrapStockHistory(
+    public async scrapStockHistory(req: ScrapStockHistory): Promise<CustomResponse> {
+        var customRespo
