@@ -27,4 +27,6 @@ export class StockHistoryController {
 
             if (req.symbol_code != null) {
 
-                let companyDetails = await this.companiesDbHelper.getCo
+                let companyDetails = await this.companiesDbHelper.getCompanyBy("company_symbol_code", req.symbol_code, 0);
+
+            
