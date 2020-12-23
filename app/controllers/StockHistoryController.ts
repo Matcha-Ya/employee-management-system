@@ -22,4 +22,9 @@ export class StockHistoryController {
     }
 
     public async scrapStockHistory(req: ScrapStockHistory): Promise<CustomResponse> {
-        var customRespo
+        var customResponse = new CustomResponse();
+        try {
+
+            if (req.symbol_code != null) {
+
+ 
