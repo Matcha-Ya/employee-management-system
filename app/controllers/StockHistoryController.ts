@@ -32,4 +32,7 @@ export class StockHistoryController {
                 if (companyDetails.isError) {
                     customResponse.error_code = 404;
                     customResponse.error_messages = 'No such company found, please try scraping company details first';
-                    cust
+                    customResponse.result = null;
+                } else {
+
+        
