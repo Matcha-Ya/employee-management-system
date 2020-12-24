@@ -30,4 +30,5 @@ export class StockHistoryController {
                 let companyDetails = await this.companiesDbHelper.getCompanyBy("company_symbol_code", req.symbol_code, 0);
 
                 if (companyDetails.isError) {
-                    customResponse.error_code = 40
+                    customResponse.error_code = 404;
+                    customResponse.error_messages = 'No such company fou
