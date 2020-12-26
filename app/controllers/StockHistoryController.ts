@@ -35,4 +35,4 @@ export class StockHistoryController {
                     customResponse.result = null;
                 } else {
 
-        
+                    let companyDetailsRow = companyDetails.result[0][0] as Compa
