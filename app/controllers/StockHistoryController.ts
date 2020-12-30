@@ -39,4 +39,6 @@ export class StockHistoryController {
 
                     const companyId = companyDetailsRow.id;
                     const companySymbolCode = companyDetailsRow.company_symbol_code;
-                    const indMoneyCompanyCod
+                    const indMoneyCompanyCode = companyDetailsRow.other_data?.indmoney_company_code;
+
+                 
