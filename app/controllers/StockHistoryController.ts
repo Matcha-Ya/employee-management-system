@@ -38,4 +38,5 @@ export class StockHistoryController {
                     let companyDetailsRow = companyDetails.result[0][0] as CompaniesSingleRow;
 
                     const companyId = companyDetailsRow.id;
-                    const companySymbolCode = companyDetailsRow.co
+                    const companySymbolCode = companyDetailsRow.company_symbol_code;
+                    const indMoneyCompanyCod
