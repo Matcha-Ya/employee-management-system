@@ -35,4 +35,6 @@ export class StockHistoryController {
                     customResponse.result = null;
                 } else {
 
-                    let companyDetailsRow = companyDetails.result[0][0] as Compa
+                    let companyDetailsRow = companyDetails.result[0][0] as CompaniesSingleRow;
+
+                    const companyId = companyDetailsR
