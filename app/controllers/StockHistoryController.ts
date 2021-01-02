@@ -41,4 +41,5 @@ export class StockHistoryController {
                     const companySymbolCode = companyDetailsRow.company_symbol_code;
                     const indMoneyCompanyCode = companyDetailsRow.other_data?.indmoney_company_code;
 
-                 
+                    const currentDate = new Date();
+                    let onDate
