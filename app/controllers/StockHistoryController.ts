@@ -42,4 +42,5 @@ export class StockHistoryController {
                     const indMoneyCompanyCode = companyDetailsRow.other_data?.indmoney_company_code;
 
                     const currentDate = new Date();
-                    let onDateValueString = ((currentDate.getFullYear()) + "-" + (currentDate.getMo
+                    let onDateValueString = ((currentDate.getFullYear()) + "-" + (currentDate.getMonth() + 1) + "-" + (currentDate.getDate())).toString();
+                    con
