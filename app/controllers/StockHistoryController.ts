@@ -43,4 +43,6 @@ export class StockHistoryController {
 
                     const currentDate = new Date();
                     let onDateValueString = ((currentDate.getFullYear()) + "-" + (currentDate.getMonth() + 1) + "-" + (currentDate.getDate())).toString();
-                    const urlToRequest: string = "https://indiawealth.in/api/v1/explore/stocksHistory/" + (indMoneyCompanyCode?.toString()) + "/?format=json&start_date=1971-01
+                    const urlToRequest: string = "https://indiawealth.in/api/v1/explore/stocksHistory/" + (indMoneyCompanyCode?.toString()) + "/?format=json&start_date=1971-01-01&end_date=" + onDateValueString;
+
+                    var requestH
