@@ -47,4 +47,5 @@ export class StockHistoryController {
 
                     var requestHeaders = {
                         headers: {
-                            
+                            "accept": "application/json, text/plain, */*",
+              
