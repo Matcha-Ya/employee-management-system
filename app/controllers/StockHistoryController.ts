@@ -48,4 +48,5 @@ export class StockHistoryController {
                     var requestHeaders = {
                         headers: {
                             "accept": "application/json, text/plain, */*",
-              
+                            "accept-language": "en-US,en;q=0.9",
+                            "sec
