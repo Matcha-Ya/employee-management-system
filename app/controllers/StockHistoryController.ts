@@ -49,4 +49,5 @@ export class StockHistoryController {
                         headers: {
                             "accept": "application/json, text/plain, */*",
                             "accept-language": "en-US,en;q=0.9",
-                            "sec
+                            "sec-fetch-dest": "empty",
+                            "sec-fetc
