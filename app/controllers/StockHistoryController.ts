@@ -51,4 +51,7 @@ export class StockHistoryController {
                             "accept-language": "en-US,en;q=0.9",
                             "sec-fetch-dest": "empty",
                             "sec-fetch-mode": "cors",
-                            "sec-fetch-site":
+                            "sec-fetch-site": "cross-site",
+                        },
+                        method: "GET",
+    
