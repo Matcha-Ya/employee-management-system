@@ -54,4 +54,7 @@ export class StockHistoryController {
                             "sec-fetch-site": "cross-site",
                         },
                         method: "GET",
-    
+                        timeout: 50000
+                    } as RequestOptions;
+
+            
