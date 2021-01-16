@@ -58,4 +58,5 @@ export class StockHistoryController {
                     } as RequestOptions;
 
                     await urllibRequest(urlToRequest, requestHeaders)
-    
+                        .then(
+                            async (value: HttpClientRespon
