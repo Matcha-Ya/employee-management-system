@@ -57,4 +57,5 @@ export class StockHistoryController {
                         timeout: 50000
                     } as RequestOptions;
 
-            
+                    await urllibRequest(urlToRequest, requestHeaders)
+    
