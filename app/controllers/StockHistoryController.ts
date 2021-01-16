@@ -59,4 +59,5 @@ export class StockHistoryController {
 
                     await urllibRequest(urlToRequest, requestHeaders)
                         .then(
-                            async (value: HttpClientRespon
+                            async (value: HttpClientResponse<any>) => {
+                                var responseBody = JSON.parse
