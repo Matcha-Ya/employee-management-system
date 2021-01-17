@@ -60,4 +60,6 @@ export class StockHistoryController {
                     await urllibRequest(urlToRequest, requestHeaders)
                         .then(
                             async (value: HttpClientResponse<any>) => {
-                                var responseBody = JSON.parse
+                                var responseBody = JSON.parse(value.data.toString());
+
+                                if (companyId !
