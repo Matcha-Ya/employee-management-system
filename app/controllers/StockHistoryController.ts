@@ -62,4 +62,5 @@ export class StockHistoryController {
                             async (value: HttpClientResponse<any>) => {
                                 var responseBody = JSON.parse(value.data.toString());
 
-                                if (companyId !
+                                if (companyId != null && companySymbolCode != null) {
+                                  
