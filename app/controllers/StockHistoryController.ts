@@ -63,4 +63,6 @@ export class StockHistoryController {
                                 var responseBody = JSON.parse(value.data.toString());
 
                                 if (companyId != null && companySymbolCode != null) {
-                                    let companyStockHistory = await this.stockHistoryDbHelper.getSt
+                                    let companyStockHistory = await this.stockHistoryDbHelper.getStockHistory(companyId, "desc", 1)
+
+                                 
