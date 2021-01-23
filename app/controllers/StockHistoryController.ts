@@ -65,4 +65,5 @@ export class StockHistoryController {
                                 if (companyId != null && companySymbolCode != null) {
                                     let companyStockHistory = await this.stockHistoryDbHelper.getStockHistory(companyId, "desc", 1)
 
-                                 
+                                    let lastOnDate = new Date("1971-01-01");
+                            
