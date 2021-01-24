@@ -66,4 +66,5 @@ export class StockHistoryController {
                                     let companyStockHistory = await this.stockHistoryDbHelper.getStockHistory(companyId, "desc", 1)
 
                                     let lastOnDate = new Date("1971-01-01");
-                            
+                                    if (companyStockHistory.isError) {
+                          
