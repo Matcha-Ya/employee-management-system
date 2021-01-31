@@ -69,4 +69,5 @@ export class StockHistoryController {
                                     if (companyStockHistory.isError) {
                                         // Means its already not their
                                     } else {
-                                        let lastOnDateInstant = (companyStockHistory.result[0][0] as StocksHistorySingleRow)
+                                        let lastOnDateInstant = (companyStockHistory.result[0][0] as StocksHistorySingleRow).on_date;
+                                        if (lastOnDateInsta
