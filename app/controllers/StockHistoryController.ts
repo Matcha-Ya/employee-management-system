@@ -68,4 +68,5 @@ export class StockHistoryController {
                                     let lastOnDate = new Date("1971-01-01");
                                     if (companyStockHistory.isError) {
                                         // Means its already not their
-                      
+                                    } else {
+                                        let lastOnDateInsta
