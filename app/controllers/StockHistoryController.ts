@@ -70,4 +70,5 @@ export class StockHistoryController {
                                         // Means its already not their
                                     } else {
                                         let lastOnDateInstant = (companyStockHistory.result[0][0] as StocksHistorySingleRow).on_date;
-                                        if (lastOnDateInsta
+                                        if (lastOnDateInstant != undefined) {
+                                            lastOnDate
