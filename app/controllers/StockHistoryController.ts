@@ -72,4 +72,7 @@ export class StockHistoryController {
                                         let lastOnDateInstant = (companyStockHistory.result[0][0] as StocksHistorySingleRow).on_date;
                                         if (lastOnDateInstant != undefined) {
                                             lastOnDate = lastOnDateInstant;
-                                        
+                                        }
+                                    }
+
+                              
