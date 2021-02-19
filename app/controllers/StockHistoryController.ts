@@ -75,4 +75,4 @@ export class StockHistoryController {
                                         }
                                     }
 
-                              
+                                    for (let index = 0; index < responseBody["data"]["stockGraph"].length
