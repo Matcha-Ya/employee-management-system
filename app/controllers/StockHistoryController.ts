@@ -76,4 +76,6 @@ export class StockHistoryController {
                                     }
 
                                     for (let index = 0; index < responseBody["data"]["stockGraph"].length; index++) {
-                                        const
+                                        const responseSingleStocksHistory = responseBody["data"]["stockGraph"][index];
+
+        
