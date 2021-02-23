@@ -79,4 +79,5 @@ export class StockHistoryController {
                                         const responseSingleStocksHistory = responseBody["data"]["stockGraph"][index];
 
                                         const onDate = new Date(responseSingleStocksHistory["date"] + " 00:00:00");
-                                        
+                                        const closePrice = responseSingleStocksHistory["value"];
+         
