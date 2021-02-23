@@ -78,4 +78,4 @@ export class StockHistoryController {
                                     for (let index = 0; index < responseBody["data"]["stockGraph"].length; index++) {
                                         const responseSingleStocksHistory = responseBody["data"]["stockGraph"][index];
 
-        
+                                        const onDate = new Date(responseSingleStocksH
