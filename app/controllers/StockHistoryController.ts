@@ -82,4 +82,5 @@ export class StockHistoryController {
                                         const closePrice = responseSingleStocksHistory["value"];
                                         const highPrice = responseSingleStocksHistory["highPrice"];
                                         const lowPrice = responseSingleStocksHistory["lowPrice"];
-                               
+                                        const volume = responseSingleStocksHistory["volume"];
+          
