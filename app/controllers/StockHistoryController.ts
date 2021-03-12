@@ -86,4 +86,5 @@ export class StockHistoryController {
                                         const openPrice = responseSingleStocksHistory["openPrice"];
                                         const per = responseSingleStocksHistory["per"];
 
-                                        const singleStock
+                                        const singleStockHistoryRow = {
+                                            comp
