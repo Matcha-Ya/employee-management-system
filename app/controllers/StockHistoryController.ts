@@ -87,4 +87,5 @@ export class StockHistoryController {
                                         const per = responseSingleStocksHistory["per"];
 
                                         const singleStockHistoryRow = {
-                                            comp
+                                            company_id: companyId,
+                                            on_date: onDa
