@@ -88,4 +88,5 @@ export class StockHistoryController {
 
                                         const singleStockHistoryRow = {
                                             company_id: companyId,
-                                            on_date: onDa
+                                            on_date: onDate,
+                                            open_pr
