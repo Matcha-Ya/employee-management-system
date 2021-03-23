@@ -92,4 +92,5 @@ export class StockHistoryController {
                                             open_price: openPrice,
                                             high_price: highPrice,
                                             low_price: lowPrice,
-     
+                                            close_price: closePrice,
+           
