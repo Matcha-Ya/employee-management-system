@@ -94,4 +94,5 @@ export class StockHistoryController {
                                             low_price: lowPrice,
                                             close_price: closePrice,
                                             volume: volume,
-                                
+                                            per: per
+                                        } as Stock
