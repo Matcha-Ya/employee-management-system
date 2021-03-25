@@ -98,4 +98,4 @@ export class StockHistoryController {
                                         } as StocksHistorySingleRow;
 
                                         if (lastOnDate.getTime() < onDate.getTime()) {
-                                            var inse
+                                            var insertCompanyResult = await this.stockHistoryDbHelper.insertStockHistory(singleStockHis
