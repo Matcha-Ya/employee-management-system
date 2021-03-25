@@ -95,4 +95,6 @@ export class StockHistoryController {
                                             close_price: closePrice,
                                             volume: volume,
                                             per: per
-                                        } as Stock
+                                        } as StocksHistorySingleRow;
+
+                                        if (lastOnDate.getTime()
