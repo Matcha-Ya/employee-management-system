@@ -101,4 +101,5 @@ export class StockHistoryController {
                                             var insertCompanyResult = await this.stockHistoryDbHelper.insertStockHistory(singleStockHistoryRow);
 
                                             if (insertCompanyResult.isError) {
-                                                BunyanHelper.errorLogger.error('Scrapped Successfully
+                                                BunyanHelper.errorLogger.error('Scrapped Successfully but, failed to Store Stock History');
+                                      
