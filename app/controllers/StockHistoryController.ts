@@ -97,4 +97,5 @@ export class StockHistoryController {
                                             per: per
                                         } as StocksHistorySingleRow;
 
-                                        if (lastOnDate.getTime()
+                                        if (lastOnDate.getTime() < onDate.getTime()) {
+                                            var inse
