@@ -104,4 +104,5 @@ export class StockHistoryController {
                                                 BunyanHelper.errorLogger.error('Scrapped Successfully but, failed to Store Stock History');
                                                 BunyanHelper.errorLogger.error(responseSingleStocksHistory);
                                             }
-                   
+                                        } else {
+                                            //
