@@ -105,4 +105,5 @@ export class StockHistoryController {
                                                 BunyanHelper.errorLogger.error(responseSingleStocksHistory);
                                             }
                                         } else {
-                                            //
+                                            // console.log("Skipped");
+                                            /
