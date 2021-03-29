@@ -106,4 +106,8 @@ export class StockHistoryController {
                                             }
                                         } else {
                                             // console.log("Skipped");
-                                            // "Skipped for Inserting because last entry date is more than the current 
+                                            // "Skipped for Inserting because last entry date is more than the current going to entry"
+                                        }
+
+
+       
