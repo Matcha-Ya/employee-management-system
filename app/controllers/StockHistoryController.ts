@@ -112,4 +112,5 @@ export class StockHistoryController {
 
                                     }
 
-                                   
+                                    customResponse.error_code = 200;
+                            
