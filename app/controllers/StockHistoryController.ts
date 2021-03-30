@@ -116,4 +116,5 @@ export class StockHistoryController {
                                     customResponse.error_messages = 'Scrapped Successfully';
                                     customResponse.result = responseBody;
                                 } else {
+                                    customResponse.error_code = 500;
                                     custom
