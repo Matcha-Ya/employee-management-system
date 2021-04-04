@@ -118,4 +118,6 @@ export class StockHistoryController {
                                 } else {
                                     customResponse.error_code = 500;
                                     customResponse.error_messages = 'Failed to Get Company id';
-                 
+                                    customResponse.result = null;
+                                }
+           
