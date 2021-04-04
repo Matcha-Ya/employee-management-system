@@ -122,4 +122,5 @@ export class StockHistoryController {
                                 }
                             },
                             (reason: any) => {
-                
+                                BunyanHelper.errorLogger.error(reason);
+   
