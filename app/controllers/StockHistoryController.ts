@@ -124,4 +124,5 @@ export class StockHistoryController {
                             (reason: any) => {
                                 BunyanHelper.errorLogger.error(reason);
                                 console.error(reason);
-                            
+                                customResponse.error_code = 500;
+                              
