@@ -131,4 +131,5 @@ export class StockHistoryController {
                         )
                         .catch(
                             (error: any) => {
-           
+                                BunyanHelper.errorLogger.error(error);
+     
