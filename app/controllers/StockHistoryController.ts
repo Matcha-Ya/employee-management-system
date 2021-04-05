@@ -127,4 +127,6 @@ export class StockHistoryController {
                                 customResponse.error_code = 500;
                                 customResponse.error_messages = 'Failed to Scrap Stock History';
                                 customResponse.result = null;
-                           
+                            }
+                        )
+                       
