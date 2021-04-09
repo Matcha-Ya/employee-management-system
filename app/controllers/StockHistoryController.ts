@@ -140,4 +140,6 @@ export class StockHistoryController {
                         );
                 }
 
-        
+            } else {
+                customResponse.error_code = 400;
+           
