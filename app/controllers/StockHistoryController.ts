@@ -143,4 +143,7 @@ export class StockHistoryController {
             } else {
                 customResponse.error_code = 400;
                 customResponse.error_messages = 'Company Symbol Code needed';
-   
+                customResponse.result = null;
+            }
+
+       
