@@ -146,4 +146,6 @@ export class StockHistoryController {
                 customResponse.result = null;
             }
 
-       
+        } catch (error) {
+            BunyanHelper.errorLogger.error(error);
+            conso
