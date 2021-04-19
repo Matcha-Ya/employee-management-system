@@ -148,4 +148,6 @@ export class StockHistoryController {
 
         } catch (error) {
             BunyanHelper.errorLogger.error(error);
-            conso
+            console.error(error);
+            customResponse.error_code = 500;
+            cust
