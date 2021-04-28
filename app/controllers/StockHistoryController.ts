@@ -153,4 +153,9 @@ export class StockHistoryController {
             customResponse.error_messages = "Something went wrong";
             customResponse.result = error;
         } finally {
-            re
+            return customResponse;
+        }
+    }
+}
+
+
