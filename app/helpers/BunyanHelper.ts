@@ -5,4 +5,5 @@ import { GlobalHelper } from './GlobalHelper';
 export class BunyanHelper {
 
     public static date = new Date().toJSON().slice(0, 10);
-    // public static logsDirWithDate = path.resolve(__dirname, "..", "..", "logs"
+    // public static logsDirWithDate = path.resolve(__dirname, "..", "..", "logs", BunyanHelper.date);
+    public static logDir = new G
