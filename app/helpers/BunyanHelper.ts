@@ -4,4 +4,5 @@ import * as path from 'path';
 import { GlobalHelper } from './GlobalHelper';
 export class BunyanHelper {
 
-    pub
+    public static date = new Date().toJSON().slice(0, 10);
+    // public stat
