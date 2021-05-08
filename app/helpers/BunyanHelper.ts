@@ -13,3 +13,5 @@ export class BunyanHelper {
      * creates folder for logs if not available
      */
     public static createLogsDirectory(): fs.PathLike {
+        if (!fs.existsSync(BunyanHelper.logsDirWithDate)) {
+           
