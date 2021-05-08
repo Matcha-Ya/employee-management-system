@@ -10,4 +10,6 @@ export class BunyanHelper {
     public static logsDirWithDate = path.resolve(BunyanHelper.logDir, "logs", BunyanHelper.date);
 
     /**
-     * creates folder for logs if not ava
+     * creates folder for logs if not available
+     */
+    public static createLogsDirectory(): fs.PathLike {
