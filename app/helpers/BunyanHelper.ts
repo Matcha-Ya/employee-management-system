@@ -17,4 +17,9 @@ export class BunyanHelper {
             fs.mkdirSync(BunyanHelper.logsDirWithDate, { recursive: true, mode: 0o777 } as fs.MakeDirectoryOptions);
         }
         return BunyanHelper.logsDirWithDate;
- 
+    };
+
+    /**
+     * writes activity logs
+     */
+    public s
