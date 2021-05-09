@@ -14,4 +14,7 @@ export class BunyanHelper {
      */
     public static createLogsDirectory(): fs.PathLike {
         if (!fs.existsSync(BunyanHelper.logsDirWithDate)) {
-            fs.mkdirSync(BunyanHelper.logsDirWithDate, { recursive: true, mode: 0o77
+            fs.mkdirSync(BunyanHelper.logsDirWithDate, { recursive: true, mode: 0o777 } as fs.MakeDirectoryOptions);
+        }
+        return BunyanHelper.logsDirWithDate;
+ 
