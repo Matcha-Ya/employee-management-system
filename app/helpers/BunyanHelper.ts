@@ -22,4 +22,6 @@ export class BunyanHelper {
     /**
      * writes activity logs
      */
-    public s
+    public static activityLogger = bunyan.createLogger({
+        name: 'ACTIVITY',
+        
