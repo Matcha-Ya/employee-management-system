@@ -24,4 +24,7 @@ export class BunyanHelper {
      */
     public static activityLogger = bunyan.createLogger({
         name: 'ACTIVITY',
-        
+        level: "info",
+        src: true,
+        streams: [
+            {
