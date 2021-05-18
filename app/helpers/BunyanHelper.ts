@@ -28,3 +28,4 @@ export class BunyanHelper {
         src: true,
         streams: [
             {
+                path: path.resolve(BunyanHelper.createLogsDirectory().toString(
