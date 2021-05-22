@@ -29,4 +29,8 @@ export class BunyanHelper {
         streams: [
             {
                 path: path.resolve(BunyanHelper.createLogsDirectory().toString(), "Activity.log.json")
-                // `type: 'file'` is imp
+                // `type: 'file'` is implied
+            },
+            {
+                stream: process.stdout
+ 
