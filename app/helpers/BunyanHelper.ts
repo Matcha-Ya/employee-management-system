@@ -33,4 +33,7 @@ export class BunyanHelper {
             },
             {
                 stream: process.stdout
- 
+            }
+        ],
+        serializers: {
+            r
