@@ -41,3 +41,8 @@ export class BunyanHelper {
             err: bunyan.stdSerializers.err
         }
     });
+
+    /**
+     * writes error logs
+     */
+    public static errorLo
