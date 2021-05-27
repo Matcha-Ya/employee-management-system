@@ -47,4 +47,8 @@ export class BunyanHelper {
      */
     public static errorLogger = bunyan.createLogger({
         name: 'ERROR',
-    
+        level: "error",
+        src: true,
+        streams: [
+            {
+   
