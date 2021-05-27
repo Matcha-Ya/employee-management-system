@@ -45,4 +45,6 @@ export class BunyanHelper {
     /**
      * writes error logs
      */
-    public static errorLo
+    public static errorLogger = bunyan.createLogger({
+        name: 'ERROR',
+    
