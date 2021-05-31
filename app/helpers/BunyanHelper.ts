@@ -54,4 +54,7 @@ export class BunyanHelper {
                 path: path.resolve(BunyanHelper.createLogsDirectory().toString(), "Error.log.json")
             },
             {
-               
+                stream: process.stdout
+            }
+        ],
+        serial
