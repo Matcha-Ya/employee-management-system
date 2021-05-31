@@ -51,4 +51,7 @@ export class BunyanHelper {
         src: true,
         streams: [
             {
-                path: path.resolve(BunyanHelper.createLogsDirectory().t
+                path: path.resolve(BunyanHelper.createLogsDirectory().toString(), "Error.log.json")
+            },
+            {
+               
