@@ -57,4 +57,6 @@ export class BunyanHelper {
                 stream: process.stdout
             }
         ],
-        serial
+        serializers: {
+            req: bunyan.stdSerializers.req,
+     
