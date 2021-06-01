@@ -59,4 +59,7 @@ export class BunyanHelper {
         ],
         serializers: {
             req: bunyan.stdSerializers.req,
-     
+            res: bunyan.stdSerializers.res,
+            err: bunyan.stdSerializers.err
+        }
+    })
