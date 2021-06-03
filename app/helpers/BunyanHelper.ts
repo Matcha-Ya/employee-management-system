@@ -62,4 +62,9 @@ export class BunyanHelper {
             res: bunyan.stdSerializers.res,
             err: bunyan.stdSerializers.err
         }
-    })
+    });
+
+    /**
+     * writes request logs
+     */
+    public st
