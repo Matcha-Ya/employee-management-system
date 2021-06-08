@@ -67,4 +67,6 @@ export class BunyanHelper {
     /**
      * writes request logs
      */
-    public st
+    public static requestLogger = bunyan.createLogger({
+        name: 'REQUEST',
+  
