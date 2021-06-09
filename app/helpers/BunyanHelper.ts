@@ -69,4 +69,7 @@ export class BunyanHelper {
      */
     public static requestLogger = bunyan.createLogger({
         name: 'REQUEST',
-  
+        level: "warn",
+        src: true,
+        streams: [
+      
