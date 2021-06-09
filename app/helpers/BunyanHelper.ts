@@ -72,4 +72,5 @@ export class BunyanHelper {
         level: "warn",
         src: true,
         streams: [
-      
+            {
+                path: path.resolve(BunyanHelper.createLogsDirectory().toS
