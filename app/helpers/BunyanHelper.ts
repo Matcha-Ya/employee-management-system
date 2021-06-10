@@ -73,4 +73,7 @@ export class BunyanHelper {
         src: true,
         streams: [
             {
-                path: path.resolve(BunyanHelper.createLogsDirectory().toS
+                path: path.resolve(BunyanHelper.createLogsDirectory().toString(), "Request.log.json")
+            },
+            {
+ 
