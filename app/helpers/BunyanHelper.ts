@@ -79,3 +79,5 @@ export class BunyanHelper {
                 stream: process.stdout
             }
         ],
+        serializers: {
+            req: function auditRequestSerializer(req
