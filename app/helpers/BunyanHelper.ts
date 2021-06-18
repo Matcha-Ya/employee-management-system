@@ -80,4 +80,7 @@ export class BunyanHelper {
             }
         ],
         serializers: {
-            req: function auditRequestSerializer(req
+            req: function auditRequestSerializer(req) {
+                if (!req) {
+                    return (false);
+   
