@@ -83,4 +83,6 @@ export class BunyanHelper {
             req: function auditRequestSerializer(req) {
                 if (!req) {
                     return (false);
-   
+                }
+                return ({
+                    // account f
