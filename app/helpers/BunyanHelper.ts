@@ -85,4 +85,5 @@ export class BunyanHelper {
                     return (false);
                 }
                 return ({
-                    // account f
+                    // account for native and queryParser plugin usage
+                    query: (t
