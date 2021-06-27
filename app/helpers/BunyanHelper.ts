@@ -86,4 +86,5 @@ export class BunyanHelper {
                 }
                 return ({
                     // account for native and queryParser plugin usage
-                    query: (t
+                    query: (typeof req.query === 'function') ?
+                      
