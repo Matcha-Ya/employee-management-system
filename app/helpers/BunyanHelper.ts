@@ -98,4 +98,9 @@ export class BunyanHelper {
                 });
             },
             res: function auditResponseSerializer(res) {
-                if (!res) 
+                if (!res) {
+                    return (false);
+                }
+
+
+                var body = re
