@@ -92,4 +92,6 @@ export class BunyanHelper {
                     url: req.url,
                     headers: req.headers,
                     httpVersion: req.httpVersion,
-                    trailers: req.tra
+                    trailers: req.trailers,
+                    body: req.body,
+                    clientClosed
