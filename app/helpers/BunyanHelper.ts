@@ -97,4 +97,5 @@ export class BunyanHelper {
                     clientClosed: req.clientClosed
                 });
             },
-        
+            res: function auditResponseSerializer(res) {
+                if (!res) 
