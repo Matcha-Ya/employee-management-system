@@ -103,4 +103,7 @@ export class BunyanHelper {
                 }
 
 
-                var body = re
+                var body = res._body;
+
+                // if (options.body === true) {
+             
