@@ -107,4 +107,6 @@ export class BunyanHelper {
 
                 // if (options.body === true) {
                 //     if (res._body instanceof HttpError) {
-                //       
+                //         body = res._body.body;
+                //     } else {
+                //         body = res._
