@@ -117,4 +117,7 @@ export class BunyanHelper {
                     statusCode: res.statusCode,
                     headers: res._headers,
                     trailer: res._trailer || false,
-  
+                    body: body
+                });
+            },
+        
