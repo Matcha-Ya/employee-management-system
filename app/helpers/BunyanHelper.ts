@@ -114,3 +114,5 @@ export class BunyanHelper {
                 // }
 
                 return ({
+                    statusCode: res.statusCode,
+                    headers: res._he
