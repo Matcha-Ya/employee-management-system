@@ -115,4 +115,6 @@ export class BunyanHelper {
 
                 return ({
                     statusCode: res.statusCode,
-                    headers: res._he
+                    headers: res._headers,
+                    trailer: res._trailer || false,
+  
