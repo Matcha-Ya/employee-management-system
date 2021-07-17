@@ -120,4 +120,8 @@ export class BunyanHelper {
                     body: body
                 });
             },
-        
+            err: bunyan.stdSerializers.err
+        }
+    });
+
+    con
