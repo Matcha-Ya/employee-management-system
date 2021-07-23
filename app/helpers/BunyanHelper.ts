@@ -132,4 +132,5 @@ export class BunyanHelper {
      * takes params:
      * logText(any), methodName(optional)
      */
-    public static writ
+    public static writeActivityLog(logText: any, methodName?: string) {
+        /
