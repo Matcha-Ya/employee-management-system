@@ -129,4 +129,7 @@ export class BunyanHelper {
 
     /**
      * writes activity log
-     * takes par
+     * takes params:
+     * logText(any), methodName(optional)
+     */
+    public static writ
