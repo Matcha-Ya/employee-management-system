@@ -124,4 +124,9 @@ export class BunyanHelper {
         }
     });
 
-    con
+    constructor() {
+    }
+
+    /**
+     * writes activity log
+     * takes par
