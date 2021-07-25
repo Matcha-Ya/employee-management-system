@@ -133,4 +133,5 @@ export class BunyanHelper {
      * logText(any), methodName(optional)
      */
     public static writeActivityLog(logText: any, methodName?: string) {
-        /
+        // var stackTrace = require("stack-trace/lib/stack-trace");
+      
