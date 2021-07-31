@@ -135,4 +135,5 @@ export class BunyanHelper {
     public static writeActivityLog(logText: any, methodName?: string) {
         // var stackTrace = require("stack-trace/lib/stack-trace");
         // var thistrace = stackTrace.get();
-        // var parent_name 
+        // var parent_name = thistrace[1].getFunctionName();
+        // var parent_eval = thistrace[1
