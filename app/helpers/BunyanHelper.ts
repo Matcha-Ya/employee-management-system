@@ -136,4 +136,5 @@ export class BunyanHelper {
         // var stackTrace = require("stack-trace/lib/stack-trace");
         // var thistrace = stackTrace.get();
         // var parent_name = thistrace[1].getFunctionName();
-        // var parent_eval = thistrace[1
+        // var parent_eval = thistrace[1].getEvalOrigin();
+        BunyanHelper.activityLogger.info('Action: 
