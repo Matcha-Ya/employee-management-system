@@ -143,4 +143,6 @@ export class BunyanHelper {
     /** 
      * writes error log
      * takes params:
-     * logText(any), methodName
+     * logText(any), methodName(optional)
+     * */
+    public static writeErrorLog(logText: any, meth
