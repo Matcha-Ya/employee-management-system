@@ -141,4 +141,6 @@ export class BunyanHelper {
     }
 
     /** 
- 
+     * writes error log
+     * takes params:
+     * logText(any), methodName
