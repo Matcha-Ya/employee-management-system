@@ -145,4 +145,5 @@ export class BunyanHelper {
      * takes params:
      * logText(any), methodName(optional)
      * */
-    public static writeErrorLog(logText: any, meth
+    public static writeErrorLog(logText: any, methodName?: string) {
+        BunyanHelper.errorLogger.error('Action: ' +
