@@ -146,4 +146,7 @@ export class BunyanHelper {
      * logText(any), methodName(optional)
      * */
     public static writeErrorLog(logText: any, methodName?: string) {
-        BunyanHelper.errorLogger.error('Action: ' +
+        BunyanHelper.errorLogger.error('Action: ' + methodName + ' | Message:', logText)
+    }
+
+}
