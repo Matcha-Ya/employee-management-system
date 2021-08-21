@@ -8,4 +8,5 @@ export class AccountsDbHelper {
     private globalConfig: any;
 
     constructor() {
-        this.glo
+        this.globalHelper = new GlobalHelper();
+        this.globalConfig = this.globalHelper.getC
