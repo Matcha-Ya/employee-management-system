@@ -4,4 +4,8 @@ import { BunyanHelper } from "../BunyanHelper";
 import { DbHelperReturn } from '../../models/GeneralModels';
 
 export class AccountsDbHelper {
-    private globalHelper: Globa
+    private globalHelper: GlobalHelper;
+    private globalConfig: any;
+
+    constructor() {
+        this.glo
