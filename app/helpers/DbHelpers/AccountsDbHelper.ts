@@ -9,4 +9,10 @@ export class AccountsDbHelper {
 
     constructor() {
         this.globalHelper = new GlobalHelper();
-        this.globalConfig = this.globalHelper.getC
+        this.globalConfig = this.globalHelper.getConfig("global");
+    }
+
+
+    /**
+     * Insert user in database
+    
