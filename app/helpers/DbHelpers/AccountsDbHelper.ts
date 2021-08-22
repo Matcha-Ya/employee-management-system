@@ -15,4 +15,6 @@ export class AccountsDbHelper {
 
     /**
      * Insert user in database
+     * @param first_name first name
+     * @param last_name last name
     
