@@ -21,4 +21,4 @@ export class AccountsDbHelper {
      * @param mobile_number mobile number in string
      * @param password password in normal string
      */
-    public async insertUser(
+    public async insertUser(first_name: string, last_name: string, email_id: string, mobile_nu
