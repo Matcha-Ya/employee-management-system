@@ -17,4 +17,6 @@ export class AccountsDbHelper {
      * Insert user in database
      * @param first_name first name
      * @param last_name last name
-    
+     * @param email_id email id
+     * @param mobile_number mobile number in string
+     
