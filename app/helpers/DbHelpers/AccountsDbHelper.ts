@@ -27,4 +27,7 @@ export class AccountsDbHelper {
 
         try {
 
-            let sqlQu
+            let sqlQuery = ""
+                + "INSERT INTO `users`"
+                + "("
+       
