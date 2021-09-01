@@ -23,4 +23,8 @@ export class AccountsDbHelper {
      */
     public async insertUser(first_name: string, last_name: string, email_id: string, mobile_number: string, password: string): Promise<DbHelperReturn> {
 
-        var
+        var insertUserReturn = new DbHelperReturn();
+
+        try {
+
+            let sqlQu
