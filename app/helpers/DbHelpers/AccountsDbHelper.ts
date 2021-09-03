@@ -30,4 +30,6 @@ export class AccountsDbHelper {
             let sqlQuery = ""
                 + "INSERT INTO `users`"
                 + "("
-       
+                + "`user_uuid`,"
+                + "`first_name`,"
+             
