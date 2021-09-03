@@ -32,4 +32,6 @@ export class AccountsDbHelper {
                 + "("
                 + "`user_uuid`,"
                 + "`first_name`,"
-             
+                + "`last_name`,"
+                + "`email_id`,"
+                + "`email
