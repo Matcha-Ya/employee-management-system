@@ -34,4 +34,6 @@ export class AccountsDbHelper {
                 + "`first_name`,"
                 + "`last_name`,"
                 + "`email_id`,"
-                + "`email
+                + "`email_confirmed`,"
+                + "`mobile_number`,"
+                +
