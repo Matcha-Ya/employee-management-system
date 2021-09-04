@@ -38,4 +38,6 @@ export class AccountsDbHelper {
                 + "`mobile_number`,"
                 + "`mobile_confirmed`,"
                 + "`password_hash`,"
+                + "`kyc_confirmed`)"
+                + "VALUES("
               
