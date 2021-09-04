@@ -40,4 +40,7 @@ export class AccountsDbHelper {
                 + "`password_hash`,"
                 + "`kyc_confirmed`)"
                 + "VALUES("
-              
+                + "?,"
+                + "?,"
+                + "?,"
+            
