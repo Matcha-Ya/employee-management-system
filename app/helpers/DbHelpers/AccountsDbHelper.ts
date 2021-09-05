@@ -46,4 +46,7 @@ export class AccountsDbHelper {
                 + "?,"
                 + "?,"
                 + "?,"
-   
+                + "?,"
+                + "?,"
+                + "?"
+        
