@@ -52,4 +52,8 @@ export class AccountsDbHelper {
                 + ")";
 
             if (this.globalConfig["settings"]["log_verbose"]) {
-                BunyanHelper.activityLogger.info(sqlQuery
+                BunyanHelper.activityLogger.info(sqlQuery);
+            }
+
+            var results = await MySQLHelper.executeQuery(sqlQuery, [
+    
