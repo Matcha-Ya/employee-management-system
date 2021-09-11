@@ -51,4 +51,5 @@ export class AccountsDbHelper {
                 + "?"
                 + ")";
 
-            if (this.globalConfig["settings
+            if (this.globalConfig["settings"]["log_verbose"]) {
+                BunyanHelper.activityLogger.info(sqlQuery
