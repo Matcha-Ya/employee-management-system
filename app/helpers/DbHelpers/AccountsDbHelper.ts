@@ -49,4 +49,6 @@ export class AccountsDbHelper {
                 + "?,"
                 + "?,"
                 + "?"
-        
+                + ")";
+
+            if (this.globalConfig["settings
