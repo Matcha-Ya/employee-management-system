@@ -57,4 +57,7 @@ export class AccountsDbHelper {
 
             var results = await MySQLHelper.executeQuery(sqlQuery, [
                 this.globalHelper.getNewUUID(),
-                fi
+                first_name,
+                last_name,
+                email_id,
+               
