@@ -63,4 +63,6 @@ export class AccountsDbHelper {
                 0,
                 mobile_number,
                 0,
-       
+                this.globalHelper.hashString(password),
+                0
+          
