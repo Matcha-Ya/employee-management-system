@@ -60,4 +60,7 @@ export class AccountsDbHelper {
                 first_name,
                 last_name,
                 email_id,
-               
+                0,
+                mobile_number,
+                0,
+       
