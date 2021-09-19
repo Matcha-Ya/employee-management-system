@@ -68,4 +68,7 @@ export class AccountsDbHelper {
             ]);
 
             if (results[0].affectedRows > 0) {
-                inse
+                insertUserReturn.isError = false;
+            }
+            else {
+        
