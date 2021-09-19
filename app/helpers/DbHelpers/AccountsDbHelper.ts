@@ -65,4 +65,7 @@ export class AccountsDbHelper {
                 0,
                 this.globalHelper.hashString(password),
                 0
-          
+            ]);
+
+            if (results[0].affectedRows > 0) {
+                inse
