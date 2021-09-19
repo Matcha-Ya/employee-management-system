@@ -71,4 +71,7 @@ export class AccountsDbHelper {
                 insertUserReturn.isError = false;
             }
             else {
-        
+                insertUserReturn.isError = true;
+            }
+
+      
