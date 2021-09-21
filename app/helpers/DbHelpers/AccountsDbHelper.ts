@@ -74,4 +74,7 @@ export class AccountsDbHelper {
                 insertUserReturn.isError = true;
             }
 
-      
+            insertUserReturn.result = results;
+
+        } catch (error) {
+            BunyanH
