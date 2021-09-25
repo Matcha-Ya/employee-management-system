@@ -79,4 +79,5 @@ export class AccountsDbHelper {
         } catch (error) {
             BunyanHelper.errorLogger.error(error);
             console.error(error);
- 
+            insertUserReturn.isError = true;
+            insertUserReturn.re
