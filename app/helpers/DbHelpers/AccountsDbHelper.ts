@@ -80,4 +80,6 @@ export class AccountsDbHelper {
             BunyanHelper.errorLogger.error(error);
             console.error(error);
             insertUserReturn.isError = true;
-            insertUserReturn.re
+            insertUserReturn.result = error;
+        } finally {
+            return insertUserRetur
