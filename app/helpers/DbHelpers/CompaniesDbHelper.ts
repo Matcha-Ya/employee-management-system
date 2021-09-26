@@ -107,3 +107,37 @@ export class CompaniesDbHelper {
             }
 
             getUserByReturn.result = results;
+
+        } catch (error) {
+            BunyanHelper.errorLogger.error(error);
+            console.error(error);
+            getUserByReturn.isError = true;
+            getUserByReturn.result = error;
+        } finally {
+            return getUserByReturn;
+        }
+
+    }
+
+
+
+}
+
+
+export class CompaniesSingleRow {
+    public id?: number;
+    public company_symbol_code?: string;
+    public market_exchange?: string;
+    public company_name?: string;
+    public company_sector?: string;
+    public isin?: string;
+    public company_mf_sector?: string;
+    public other_data?: CompaniesOtherDataJson;
+    public dead?: number;
+    public modified_dtm?: Date;
+    public created_dtm?: Date;
+}
+
+export class CompaniesOtherDataJson {
+    public indmoney_company_code?: number;
+}
