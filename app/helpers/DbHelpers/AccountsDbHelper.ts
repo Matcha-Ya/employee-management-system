@@ -82,4 +82,10 @@ export class AccountsDbHelper {
             insertUserReturn.isError = true;
             insertUserReturn.result = error;
         } finally {
-            return insertUserRetur
+            return insertUserReturn;
+        }
+
+    }
+
+
+}
