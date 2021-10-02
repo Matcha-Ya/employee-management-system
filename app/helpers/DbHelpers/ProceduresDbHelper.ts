@@ -5,4 +5,5 @@ import { BunyanHelper } from "../BunyanHelper";
 import { DbHelperReturn, DatatableRequestModel } from '../../models/GeneralModels';
 
 /**
- * Every procedure of our database should be called 
+ * Every procedure of our database should be called from here.
+ * So that any parameter changes and procedure response changes can be don
