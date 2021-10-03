@@ -11,4 +11,7 @@ import { DbHelperReturn, DatatableRequestModel } from '../../models/GeneralModel
  *  - Its because in MySQL Procedures are also all in one folder, they are not like individual tables related like Triggers.
  */
 export class ProceduresDbHelper {
-    private globalHelper
+    private globalHelper: GlobalHelper;
+    private globalConfig: any;
+
+    constructor() 
