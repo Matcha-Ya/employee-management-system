@@ -14,4 +14,6 @@ export class ProceduresDbHelper {
     private globalHelper: GlobalHelper;
     private globalConfig: any;
 
-    constructor() 
+    constructor() {
+        this.globalHelper = new GlobalHelper();
+        this.globalCo
