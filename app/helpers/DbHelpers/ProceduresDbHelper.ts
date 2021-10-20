@@ -16,4 +16,8 @@ export class ProceduresDbHelper {
 
     constructor() {
         this.globalHelper = new GlobalHelper();
-        this.globalCo
+        this.globalConfig = this.globalHelper.getConfig("global");
+    }
+
+    /**
+   
