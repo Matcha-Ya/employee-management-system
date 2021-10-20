@@ -20,4 +20,6 @@ export class ProceduresDbHelper {
     }
 
     /**
-   
+     * returns all users
+     */
+    public async getUsers(dataTableR
