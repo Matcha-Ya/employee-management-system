@@ -22,4 +22,5 @@ export class ProceduresDbHelper {
     /**
      * returns all users
      */
-    public async getUsers(dataTableR
+    public async getUsers(dataTableRequestParams: DatatableRequestModel): Promise<DbHelperReturn> {
+        var usersReturn = new D
