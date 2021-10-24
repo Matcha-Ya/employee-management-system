@@ -26,4 +26,5 @@ export class ProceduresDbHelper {
         var usersReturn = new DbHelperReturn();
         try {
             // var sqlQuery = "SELECT * FROM `users`";
-            var sqlQuery = "CALL get_users(?, ?, ?, ?, ?, ?, @num_rows); 
+            var sqlQuery = "CALL get_users(?, ?, ?, ?, ?, ?, @num_rows); select @num_rows as num_rows;";
+            BunyanHelper.activityLogger
