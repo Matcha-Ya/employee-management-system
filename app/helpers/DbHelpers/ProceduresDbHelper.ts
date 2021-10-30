@@ -33,4 +33,5 @@ export class ProceduresDbHelper {
             args.push(
                 '',
                 dataTableRequestParams.search.value,
-                dataTableRequestParams.columns[dat
+                dataTableRequestParams.columns[dataTableRequestParams.order[0]["column"]]["data"],
+                dataTableRequestP
