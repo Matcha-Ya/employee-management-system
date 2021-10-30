@@ -32,4 +32,5 @@ export class ProceduresDbHelper {
             var args = new Array();
             args.push(
                 '',
-                dataTableRe
+                dataTableRequestParams.search.value,
+                dataTableRequestParams.columns[dat
