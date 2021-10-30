@@ -30,4 +30,6 @@ export class ProceduresDbHelper {
             BunyanHelper.activityLogger.info(sqlQuery);
 
             var args = new Array();
-   
+            args.push(
+                '',
+                dataTableRe
