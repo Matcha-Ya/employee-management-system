@@ -40,4 +40,6 @@ export class ProceduresDbHelper {
             );
             var results = await MySQLHelper.executeQuery(sqlQuery, args);
 
-            if (results
+            if (results[0].length > 0) {
+                usersReturn.isError = false;
+          
