@@ -34,4 +34,5 @@ export class ProceduresDbHelper {
                 '',
                 dataTableRequestParams.search.value,
                 dataTableRequestParams.columns[dataTableRequestParams.order[0]["column"]]["data"],
-                dataTableRequestP
+                dataTableRequestParams.order[0]["dir"],
+                dataTableReque
