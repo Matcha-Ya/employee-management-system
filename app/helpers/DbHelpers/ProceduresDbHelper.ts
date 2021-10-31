@@ -38,4 +38,6 @@ export class ProceduresDbHelper {
                 dataTableRequestParams.start,
                 dataTableRequestParams.length
             );
-    
+            var results = await MySQLHelper.executeQuery(sqlQuery, args);
+
+            if (results
