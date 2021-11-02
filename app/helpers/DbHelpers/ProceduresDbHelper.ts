@@ -42,4 +42,6 @@ export class ProceduresDbHelper {
 
             if (results[0].length > 0) {
                 usersReturn.isError = false;
-          
+            }
+            else {
+                usersReturn.isError = true;
