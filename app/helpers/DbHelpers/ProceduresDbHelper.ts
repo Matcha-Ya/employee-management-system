@@ -45,3 +45,7 @@ export class ProceduresDbHelper {
             }
             else {
                 usersReturn.isError = true;
+            }
+
+            usersReturn.result = results;
+        } c
