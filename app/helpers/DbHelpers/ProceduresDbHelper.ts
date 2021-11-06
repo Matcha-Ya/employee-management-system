@@ -48,4 +48,5 @@ export class ProceduresDbHelper {
             }
 
             usersReturn.result = results;
-        } c
+        } catch (error) {
+            BunyanHelper.errorLogger.error(error);
