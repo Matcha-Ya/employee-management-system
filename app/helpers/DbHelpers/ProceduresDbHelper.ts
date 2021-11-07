@@ -50,3 +50,6 @@ export class ProceduresDbHelper {
             usersReturn.result = results;
         } catch (error) {
             BunyanHelper.errorLogger.error(error);
+            console.error(error);
+            usersReturn.isError = true;
+           
