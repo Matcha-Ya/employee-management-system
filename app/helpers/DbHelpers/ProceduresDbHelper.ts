@@ -58,4 +58,7 @@ export class ProceduresDbHelper {
     }
 
     public async deleteUserAndDataPemenent(user_uuid: string): Promise<DbHelperReturn> {
-        var deleteUserAndDataPemenentReturn = new DbHelperRe
+        var deleteUserAndDataPemenentReturn = new DbHelperReturn();
+
+        try {
+            var sqlQuery = "CALL `delete_user_
