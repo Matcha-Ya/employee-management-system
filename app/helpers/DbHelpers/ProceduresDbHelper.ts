@@ -57,4 +57,4 @@ export class ProceduresDbHelper {
         return usersReturn;
     }
 
-    publ
+    public async deleteUserAndDataPemenent(user_uuid: string): Promise<DbHelpe
