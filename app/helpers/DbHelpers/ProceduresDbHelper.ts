@@ -52,4 +52,9 @@ export class ProceduresDbHelper {
             BunyanHelper.errorLogger.error(error);
             console.error(error);
             usersReturn.isError = true;
-           
+            usersReturn.result = error;
+        }
+        return usersReturn;
+    }
+
+    publ
