@@ -57,4 +57,5 @@ export class ProceduresDbHelper {
         return usersReturn;
     }
 
-    public async deleteUserAndDataPemenent(user_uuid: string): Promise<DbHelpe
+    public async deleteUserAndDataPemenent(user_uuid: string): Promise<DbHelperReturn> {
+        var deleteUserAndDataPemenentReturn = new DbHelperRe
