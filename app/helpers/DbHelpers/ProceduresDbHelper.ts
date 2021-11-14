@@ -61,4 +61,6 @@ export class ProceduresDbHelper {
         var deleteUserAndDataPemenentReturn = new DbHelperReturn();
 
         try {
-            var sqlQuery = "CALL `delete_user_
+            var sqlQuery = "CALL `delete_user_and_data_permanent`('" + user_uuid + "')";
+
+            BunyanHelper.a
