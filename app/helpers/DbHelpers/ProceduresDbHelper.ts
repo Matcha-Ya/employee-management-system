@@ -63,4 +63,6 @@ export class ProceduresDbHelper {
         try {
             var sqlQuery = "CALL `delete_user_and_data_permanent`('" + user_uuid + "')";
 
-            BunyanHelper.a
+            BunyanHelper.activityLogger.info(sqlQuery);
+
+            var results = await MySQLHelper.executeQ
