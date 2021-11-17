@@ -65,4 +65,8 @@ export class ProceduresDbHelper {
 
             BunyanHelper.activityLogger.info(sqlQuery);
 
-            var results = await MySQLHelper.executeQ
+            var results = await MySQLHelper.executeQuery(sqlQuery, [
+                user_uuid
+            ]);
+
+            i
