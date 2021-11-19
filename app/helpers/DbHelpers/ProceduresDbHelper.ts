@@ -69,4 +69,5 @@ export class ProceduresDbHelper {
                 user_uuid
             ]);
 
-            i
+            if (results[0].length > 0) {
+                deleteUserAndDataPemen
