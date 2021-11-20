@@ -73,4 +73,7 @@ export class ProceduresDbHelper {
                 deleteUserAndDataPemenentReturn.isError = false;
             }
             else {
-              
+                deleteUserAndDataPemenentReturn.isError = true;
+            }
+
+            deleteUser
