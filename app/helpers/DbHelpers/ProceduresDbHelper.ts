@@ -70,4 +70,7 @@ export class ProceduresDbHelper {
             ]);
 
             if (results[0].length > 0) {
-                deleteUserAndDataPemen
+                deleteUserAndDataPemenentReturn.isError = false;
+            }
+            else {
+              
