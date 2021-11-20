@@ -80,4 +80,5 @@ export class ProceduresDbHelper {
 
         }
         catch (error) {
-    
+            BunyanHelper.errorLogger.error(error);
+            conso
