@@ -83,4 +83,5 @@ export class ProceduresDbHelper {
             BunyanHelper.errorLogger.error(error);
             console.error(error);
             deleteUserAndDataPemenentReturn.isError = true;
-  
+            deleteUserAndDataPemenentReturn.result = error;
+        
