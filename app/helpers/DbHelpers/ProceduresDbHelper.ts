@@ -84,4 +84,7 @@ export class ProceduresDbHelper {
             console.error(error);
             deleteUserAndDataPemenentReturn.isError = true;
             deleteUserAndDataPemenentReturn.result = error;
-        
+        }
+        finally {
+            return deleteUserAndDataPemenentReturn;
+      
