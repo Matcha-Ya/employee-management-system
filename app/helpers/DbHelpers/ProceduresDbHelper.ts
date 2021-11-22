@@ -87,4 +87,9 @@ export class ProceduresDbHelper {
         }
         finally {
             return deleteUserAndDataPemenentReturn;
-      
+        }
+    }
+}
+
+
+
