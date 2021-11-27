@@ -1,4 +1,10 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import * as uuid from 'uuid';
-import
+import * as bcrypt from 'bcrypt';
+
+
+
+export class GlobalHelper {
+
+    construc
