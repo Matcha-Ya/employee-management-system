@@ -11,4 +11,5 @@ export class GlobalHelper {
 
     }
 
-    public getConfig(fileName: "global" | "payment"): 
+    public getConfig(fileName: "global" | "payment"): any {
+        let configJson = JSON.parse(readFileSync(joi
