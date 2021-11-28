@@ -7,4 +7,8 @@ import * as bcrypt from 'bcrypt';
 
 export class GlobalHelper {
 
-    construc
+    constructor() {
+
+    }
+
+    public getConfig(fileName: "global" | "payment"): 
