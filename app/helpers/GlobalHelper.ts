@@ -19,3 +19,7 @@ export class GlobalHelper {
     public getNewUUID(): string {
         return uuid.v4();
     }
+
+    /**
+     * Hashing of string using bcrypt.
+     * salt is inside static pass
