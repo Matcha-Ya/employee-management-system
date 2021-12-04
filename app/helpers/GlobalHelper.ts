@@ -22,4 +22,4 @@ export class GlobalHelper {
 
     /**
      * Hashing of string using bcrypt.
-     * salt is inside static pass
+     * salt is inside static passed, if the value of salt is changed then it will make each and every password e
