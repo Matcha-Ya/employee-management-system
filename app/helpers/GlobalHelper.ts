@@ -25,4 +25,8 @@ export class GlobalHelper {
      * salt is inside static passed, if the value of salt is changed then it will make each and every password expire.
      * @param str string hash
      */
-    public hashString(str: st
+    public hashString(str: string): string {
+        return bcrypt.hashSync(str, 10);
+    }
+
+    public v
