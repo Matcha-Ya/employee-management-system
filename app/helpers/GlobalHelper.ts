@@ -29,4 +29,5 @@ export class GlobalHelper {
         return bcrypt.hashSync(str, 10);
     }
 
-    public v
+    public verifyHash(hashString: string, rawStr: string): boolean {
+        if (bcrypt
