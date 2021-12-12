@@ -30,4 +30,7 @@ export class GlobalHelper {
     }
 
     public verifyHash(hashString: string, rawStr: string): boolean {
-        if (bcrypt
+        if (bcrypt.compareSync(rawStr, hashString)) {
+            return true;
+        } else {
+    
