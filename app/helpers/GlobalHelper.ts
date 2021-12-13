@@ -33,4 +33,9 @@ export class GlobalHelper {
         if (bcrypt.compareSync(rawStr, hashString)) {
             return true;
         } else {
-    
+            return false;
+        }
+    }
+
+
+    public escapeRegExp(str: s
