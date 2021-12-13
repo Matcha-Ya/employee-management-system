@@ -38,4 +38,5 @@ export class GlobalHelper {
     }
 
 
-    public escapeRegExp(str: s
+    public escapeRegExp(str: string) {
+        return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$
