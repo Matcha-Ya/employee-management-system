@@ -42,4 +42,5 @@ export class GlobalHelper {
         return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
     }
 
-    public replaceAll(str: string, find: string, replace: s
+    public replaceAll(str: string, find: string, replace: string) {
+        return str.replace(new RegExp(this.escapeR
