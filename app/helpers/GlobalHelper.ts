@@ -47,4 +47,5 @@ export class GlobalHelper {
     }
 
     /**
-     * @return Dat in My
+     * @return Dat in MySQL TIMESTAMP Format
+     * @param inputDate date in typescript date datatype
