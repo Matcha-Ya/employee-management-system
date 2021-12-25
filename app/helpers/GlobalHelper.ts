@@ -43,4 +43,8 @@ export class GlobalHelper {
     }
 
     public replaceAll(str: string, find: string, replace: string) {
-        return str.replace(new RegExp(this.escapeR
+        return str.replace(new RegExp(this.escapeRegExp(find), 'g'), replace);
+    }
+
+    /**
+     * @return Dat in My
