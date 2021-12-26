@@ -49,3 +49,7 @@ export class GlobalHelper {
     /**
      * @return Dat in MySQL TIMESTAMP Format
      * @param inputDate date in typescript date datatype
+     */
+    public getMySQLDateFormat(inputDate: Date) {
+
+        if (input
