@@ -52,4 +52,8 @@ export class GlobalHelper {
      */
     public getMySQLDateFormat(inputDate: Date) {
 
-        if (input
+        if (inputDate == null) {
+            inputDate = new Date();
+        }
+
+        const re
