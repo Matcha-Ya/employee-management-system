@@ -57,4 +57,5 @@ export class GlobalHelper {
         }
 
         const result = inputDate.getFullYear() + '-' +
-            ('00' + (inputDate.ge
+            ('00' + (inputDate.getMonth() + 1)).slice(-2) + '-' +
+            ('00' + inputDate.getDate
