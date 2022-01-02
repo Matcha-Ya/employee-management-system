@@ -63,4 +63,6 @@ export class GlobalHelper {
             ('00' + inputDate.getMinutes()).slice(-2) + ':' +
             ('00' + inputDate.getSeconds()).slice(-2);
 
-        // let result = i
+        // let result = inputDate.toISOString().slice(0, 19).replace('T', ' ');
+
+        // console.
