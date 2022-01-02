@@ -59,4 +59,6 @@ export class GlobalHelper {
         const result = inputDate.getFullYear() + '-' +
             ('00' + (inputDate.getMonth() + 1)).slice(-2) + '-' +
             ('00' + inputDate.getDate()).slice(-2) + ' ' +
-            ('00' + inputDate.getHours()).slice(-2) + ':
+            ('00' + inputDate.getHours()).slice(-2) + ':' +
+            ('00' + inputDate.getMinutes()).slice(-2) + ':' +
+          
