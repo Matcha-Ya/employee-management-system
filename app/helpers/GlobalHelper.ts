@@ -65,4 +65,4 @@ export class GlobalHelper {
 
         // let result = inputDate.toISOString().slice(0, 19).replace('T', ' ');
 
-        // console.
+        // console.log('getMySQLDateFormat | input : ' + inputDate + ' | output : ' + result);
