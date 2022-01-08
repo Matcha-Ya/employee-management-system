@@ -71,4 +71,7 @@ export class GlobalHelper {
     }
 
     /**
-     * @return Javascript date da
+     * @return Javascript date datatype.
+     * @param inputDate mysql datetime string
+     */
+    public get
