@@ -76,4 +76,7 @@ export class GlobalHelper {
      */
     public getJavaScriptDateFromMySQLDateString(inputDate: string): Date {
 
- 
+        let t = null;
+        let result;
+
+        t = inputDate.spl
