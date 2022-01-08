@@ -74,4 +74,6 @@ export class GlobalHelper {
      * @return Javascript date datatype.
      * @param inputDate mysql datetime string
      */
-    public get
+    public getJavaScriptDateFromMySQLDateString(inputDate: string): Date {
+
+ 
