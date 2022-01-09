@@ -81,4 +81,6 @@ export class GlobalHelper {
 
         t = inputDate.split(/[- :]/);
         var x = Array<number>();
-        for (let index
+        for (let index = 0; index < t.length; index++) {
+            x.push(Number(t[index]));
+ 
