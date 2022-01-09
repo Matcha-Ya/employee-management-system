@@ -79,4 +79,6 @@ export class GlobalHelper {
         let t = null;
         let result;
 
-        t = inputDate.spl
+        t = inputDate.split(/[- :]/);
+        var x = Array<number>();
+        for (let index
