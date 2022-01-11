@@ -83,4 +83,6 @@ export class GlobalHelper {
         var x = Array<number>();
         for (let index = 0; index < t.length; index++) {
             x.push(Number(t[index]));
- 
+        }
+        // when t[3], t[4] and t[5] are missing they defaults to zero
+    
