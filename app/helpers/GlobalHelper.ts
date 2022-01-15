@@ -86,4 +86,6 @@ export class GlobalHelper {
         }
         // when t[3], t[4] and t[5] are missing they defaults to zero
         // you should be using new Date(Date.UTC(...)) other wise the answer is wrong by up to 24 hours
-        result = new Date(Number(x[0]), Number(Number
+        result = new Date(Number(x[0]), Number(Number(x[1]) - 1), x[2], x[3] || 0, x[4] || 0, x[5] || 0);
+
+        // console.log
