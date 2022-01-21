@@ -94,4 +94,7 @@ export class GlobalHelper {
     }
 
     /**
-    * @return 
+    * @return Unique array of objects
+    * @param userData Array of any object
+     */
+    publ
