@@ -97,4 +97,5 @@ export class GlobalHelper {
     * @return Unique array of objects
     * @param userData Array of any object
      */
-    publ
+    public removeDuplicateFromArrayOfObjects(userData: any[]) {
+        const uniqu
