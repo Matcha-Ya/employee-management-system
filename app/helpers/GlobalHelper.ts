@@ -98,4 +98,5 @@ export class GlobalHelper {
     * @param userData Array of any object
      */
     public removeDuplicateFromArrayOfObjects(userData: any[]) {
-        const uniqu
+        const uniqueArray = userData.filter((data, index) => {
+            const stringfyD
