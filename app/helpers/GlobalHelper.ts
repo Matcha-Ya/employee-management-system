@@ -102,4 +102,9 @@ export class GlobalHelper {
             const stringfyData = JSON.stringify(data);
             return index === userData.findIndex(obj => {
                 return JSON.stringify(obj) === stringfyData;
-          
+            });
+        });
+        return uniqueArray;
+    }
+
+}
