@@ -100,4 +100,6 @@ export class GlobalHelper {
     public removeDuplicateFromArrayOfObjects(userData: any[]) {
         const uniqueArray = userData.filter((data, index) => {
             const stringfyData = JSON.stringify(data);
-            return index === userData.findIndex(obj
+            return index === userData.findIndex(obj => {
+                return JSON.stringify(obj) === stringfyData;
+          
