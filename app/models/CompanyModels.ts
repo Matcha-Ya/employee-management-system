@@ -1,2 +1,6 @@
 export class GetCompanyDetails {
-    public symbol_c
+    public symbol_code?: string;
+}
+
+export class ScrapCompanyDetails {
+    public sy
