@@ -3,4 +3,5 @@ export class GetCompanyDetails {
 }
 
 export class ScrapCompanyDetails {
-    public sy
+    public symbol_code?: string;
+}
