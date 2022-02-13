@@ -1,2 +1,3 @@
 import { Request, Response } from 'express';
-import { AccountsController } from '../controllers/AccountsCon
+import { AccountsController } from '../controllers/AccountsController';
+import { SignUpRequestModel } from '../models/AccountsMo
