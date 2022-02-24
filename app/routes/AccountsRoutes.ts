@@ -5,4 +5,7 @@ import { GlobalHelper } from '../helpers/GlobalHelper';
 import { CustomResponse } from '../models/GeneralModels';
 /**
  * Routes for Account Controller
- 
+ */
+export class AccountsRoutes {
+    public router: any;
+    private
