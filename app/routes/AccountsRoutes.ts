@@ -8,4 +8,5 @@ import { CustomResponse } from '../models/GeneralModels';
  */
 export class AccountsRoutes {
     public router: any;
-    private
+    private accountsController: AccountsController = new AccountsController();
+    
