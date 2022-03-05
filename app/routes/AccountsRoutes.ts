@@ -11,4 +11,5 @@ export class AccountsRoutes {
     private accountsController: AccountsController = new AccountsController();
     private globalHelper: GlobalHelper;
     constructor(express: any) {
-      
+        this.router = express.Router();
+        this.globalHelper 
