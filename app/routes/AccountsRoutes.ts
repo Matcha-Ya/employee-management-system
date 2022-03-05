@@ -9,4 +9,6 @@ import { CustomResponse } from '../models/GeneralModels';
 export class AccountsRoutes {
     public router: any;
     private accountsController: AccountsController = new AccountsController();
-    
+    private globalHelper: GlobalHelper;
+    constructor(express: any) {
+      
