@@ -16,4 +16,8 @@ export class AccountsRoutes {
         this.assignRoutes();
     }
 
-    p
+    private assignRoutes() {
+
+        /**
+         * login
+         
