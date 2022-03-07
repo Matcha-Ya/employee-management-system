@@ -20,4 +20,6 @@ export class AccountsRoutes {
 
         /**
          * login
-         
+         */
+        this.router.route('/signup')
+            .post(async (req:
