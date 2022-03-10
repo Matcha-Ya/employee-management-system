@@ -23,4 +23,6 @@ export class AccountsRoutes {
          */
         this.router.route('/signup')
             .post(async (req: Request, res: Response) => {
-                var customRespons
+                var customResponse: CustomResponse = new CustomResponse();
+
+                try {
