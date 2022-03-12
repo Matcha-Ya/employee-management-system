@@ -26,3 +26,5 @@ export class AccountsRoutes {
                 var customResponse: CustomResponse = new CustomResponse();
 
                 try {
+                    var reqBody = req.body as SignUpRequestModel;
+   
