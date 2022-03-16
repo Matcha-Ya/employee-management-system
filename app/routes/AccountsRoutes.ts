@@ -27,4 +27,5 @@ export class AccountsRoutes {
 
                 try {
                     var reqBody = req.body as SignUpRequestModel;
-                    customResponse = await this.accountsController.signUpUser(reqBody)
+                    customResponse = await this.accountsController.signUpUser(reqBody);
+                    if (customResponse.error_code != 200 && custom
