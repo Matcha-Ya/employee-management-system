@@ -27,4 +27,4 @@ export class AccountsRoutes {
 
                 try {
                     var reqBody = req.body as SignUpRequestModel;
-   
+                    customResponse = await this.accountsController.signUpUser(reqBody)
