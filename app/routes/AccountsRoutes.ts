@@ -31,4 +31,7 @@ export class AccountsRoutes {
                     if (customResponse.error_code != 200 && customResponse.error_code != undefined) {
                         res.status(customResponse.error_code);
                     } else {
-                        res.st
+                        res.status(200);
+                    }
+                } catch (error) {
+           
