@@ -34,4 +34,5 @@ export class AccountsRoutes {
                         res.status(200);
                     }
                 } catch (error) {
-           
+                    console.log(error);
+                    custo
