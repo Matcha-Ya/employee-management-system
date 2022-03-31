@@ -36,4 +36,7 @@ export class AccountsRoutes {
                 } catch (error) {
                     console.log(error);
                     customResponse.error_code = 500;
-                    customResponse.error_messag
+                    customResponse.error_messages = "Something went wrong";
+                }
+                finally {
+               
