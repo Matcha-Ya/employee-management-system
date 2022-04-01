@@ -1,14 +1,15 @@
+
 import { Request, Response } from 'express';
-import { AccountsController } from '../controllers/AccountsController';
-import { SignUpRequestModel } from '../models/AccountsModels';
 import { GlobalHelper } from '../helpers/GlobalHelper';
 import { CustomResponse } from '../models/GeneralModels';
+import { CompanyController } from '../controllers/CompanyController';
+import { ScrapCompanyDetails } from '../models/CompanyModels';
 /**
  * Routes for Account Controller
  */
-export class AccountsRoutes {
+export class CompanyRoutes {
     public router: any;
-    private accountsController: AccountsController = new AccountsController();
+    private companyController: CompanyController = new CompanyController();
     private globalHelper: GlobalHelper;
     constructor(express: any) {
         this.router = express.Router();
@@ -18,16 +19,13 @@ export class AccountsRoutes {
 
     private assignRoutes() {
 
-        /**
-         * login
-         */
-        this.router.route('/signup')
+        this.router.route('/scrap_company_details')
             .post(async (req: Request, res: Response) => {
                 var customResponse: CustomResponse = new CustomResponse();
 
                 try {
-                    var reqBody = req.body as SignUpRequestModel;
-                    customResponse = await this.accountsController.signUpUser(reqBody);
+                    var reqBody = req.body as ScrapCompanyDetails;
+                    customResponse = await this.companyController.scrapCompanyDetails(reqBody);
                     if (customResponse.error_code != 200 && customResponse.error_code != undefined) {
                         res.status(customResponse.error_code);
                     } else {
@@ -39,10 +37,3 @@ export class AccountsRoutes {
                     customResponse.error_messages = "Something went wrong";
                 }
                 finally {
-                    res.send(customResponse);
-                }
-            });
-
-
-    }
-}
