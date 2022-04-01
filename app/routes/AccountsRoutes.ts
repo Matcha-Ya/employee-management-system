@@ -39,4 +39,6 @@ export class AccountsRoutes {
                     customResponse.error_messages = "Something went wrong";
                 }
                 finally {
-               
+                    res.send(customResponse);
+                }
+     
