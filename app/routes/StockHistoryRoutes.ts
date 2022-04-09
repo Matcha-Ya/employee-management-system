@@ -4,4 +4,7 @@ import { CustomResponse } from '../models/GeneralModels';
 import { StockHistoryController } from '../controllers/StockHistoryController';
 import { ScrapStockHistory } from '../models/StockHistoryModels';
 /**
- * Rout
+ * Routes for Account Controller
+ */
+export class StockHistoryRoutes {
+    publ
