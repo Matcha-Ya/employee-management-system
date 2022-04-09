@@ -8,4 +8,6 @@ import { ScrapStockHistory } from '../models/StockHistoryModels';
  */
 export class StockHistoryRoutes {
     public router: any;
-    private stockHistoryController: StockHistoryController = new StockHist
+    private stockHistoryController: StockHistoryController = new StockHistoryController();
+    private globalHelper: GlobalHelper;
+    constructor(
