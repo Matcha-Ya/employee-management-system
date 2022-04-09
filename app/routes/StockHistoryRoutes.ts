@@ -7,4 +7,5 @@ import { ScrapStockHistory } from '../models/StockHistoryModels';
  * Routes for Account Controller
  */
 export class StockHistoryRoutes {
-    publ
+    public router: any;
+    private stockHistoryController: StockHistoryController = new StockHist
