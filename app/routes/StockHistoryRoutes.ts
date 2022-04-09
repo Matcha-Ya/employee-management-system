@@ -10,4 +10,6 @@ export class StockHistoryRoutes {
     public router: any;
     private stockHistoryController: StockHistoryController = new StockHistoryController();
     private globalHelper: GlobalHelper;
-    constructor(
+    constructor(express: any) {
+        this.router = express.Router();
+       
