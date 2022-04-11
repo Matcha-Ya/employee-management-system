@@ -13,4 +13,9 @@ export class StockHistoryRoutes {
     constructor(express: any) {
         this.router = express.Router();
         this.globalHelper = new GlobalHelper();
-        this.assignRoute
+        this.assignRoutes();
+    }
+
+    private assignRoutes() {
+
+        this.ro
