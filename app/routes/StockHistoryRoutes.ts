@@ -18,4 +18,5 @@ export class StockHistoryRoutes {
 
     private assignRoutes() {
 
-        this.ro
+        this.router.route('/scrap_stock_history')
+            .post(async (req: Re
