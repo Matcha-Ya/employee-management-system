@@ -19,4 +19,5 @@ export class StockHistoryRoutes {
     private assignRoutes() {
 
         this.router.route('/scrap_stock_history')
-            .post(async (req: Re
+            .post(async (req: Request, res: Response) => {
+                var customResponse: CustomResponse = new Cus
