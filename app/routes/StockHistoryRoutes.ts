@@ -24,4 +24,4 @@ export class StockHistoryRoutes {
 
                 try {
                     var reqBody = req.body as ScrapStockHistory;
-                    customRes
+                    customResponse = await this.stockHistoryController.scrapStockHistory
