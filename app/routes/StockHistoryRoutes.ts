@@ -29,4 +29,6 @@ export class StockHistoryRoutes {
                         res.status(customResponse.error_code);
                     } else {
                         res.status(200);
-             
+                    }
+                } catch (error) {
+                    console.
