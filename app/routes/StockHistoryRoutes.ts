@@ -27,4 +27,6 @@ export class StockHistoryRoutes {
                     customResponse = await this.stockHistoryController.scrapStockHistory(reqBody);
                     if (customResponse.error_code != 200 && customResponse.error_code != undefined) {
                         res.status(customResponse.error_code);
-                   
+                    } else {
+                        res.status(200);
+             
