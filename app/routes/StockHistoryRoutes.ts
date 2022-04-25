@@ -36,4 +36,9 @@ export class StockHistoryRoutes {
                     customResponse.error_messages = "Something went wrong";
                 }
                 finally {
-                    res
+                    res.send(customResponse);
+                }
+            });
+
+    }
+}
