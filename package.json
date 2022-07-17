@@ -5,4 +5,5 @@
   "main": "app/server.ts",
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev --respaw
+    "dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
+    "start": "node ./build/serve
