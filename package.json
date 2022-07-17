@@ -1,4 +1,5 @@
 {
   "name": "express-node-ts-boilerplate",
   "version": "1.0.0",
-  "de
+  "description": "express-node-ts-boilerplate",
+  "main": "app/server
