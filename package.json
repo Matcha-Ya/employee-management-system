@@ -6,4 +6,6 @@
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
-    "start": "node ./build/serve
+    "start": "node ./build/server.js",
+    "windows_timeout": "timeout /t 1 /nobreak",
+    "windows_clean": "
