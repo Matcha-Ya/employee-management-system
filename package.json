@@ -8,4 +8,5 @@
     "dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
     "start": "node ./build/server.js",
     "windows_timeout": "timeout /t 1 /nobreak",
-    "windows_clean": "
+    "windows_clean": "rmdir /S /Q \"./build\"",
+    "windows_robocopy": "(robocopy \"./app/configs\" \
