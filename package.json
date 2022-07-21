@@ -9,4 +9,4 @@
     "start": "node ./build/server.js",
     "windows_timeout": "timeout /t 1 /nobreak",
     "windows_clean": "rmdir /S /Q \"./build\"",
-    "windows_robocopy": "(robocopy \"./app/configs\" \
+    "windows_robocopy": "(robocopy \"./app/configs\" \"./build/app/configs\" /mir /NFL /NDL /NJH /NJS /NP /NS /NC) ^& exit 0",
