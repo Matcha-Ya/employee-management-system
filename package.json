@@ -13,4 +13,8 @@
     "windows_create_build_dir": "mkdir \"./build/app/configs\"",
     "linux_clean": "rm -r -f ./build",
     "linux_copy_configs": "cp -a ./app/configs ./build/app/",
-    "linux_create_build_dir": "mkdir -p 
+    "linux_create_build_dir": "mkdir -p ./build/app/configs"
+  },
+  "repository": {
+    "type": "git",
+   
