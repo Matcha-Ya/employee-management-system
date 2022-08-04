@@ -12,4 +12,5 @@
     "windows_robocopy": "(robocopy \"./app/configs\" \"./build/app/configs\" /mir /NFL /NDL /NJH /NJS /NP /NS /NC) ^& exit 0",
     "windows_create_build_dir": "mkdir \"./build/app/configs\"",
     "linux_clean": "rm -r -f ./build",
-    "linux_copy_configs
+    "linux_copy_configs": "cp -a ./app/configs ./build/app/",
+    "linux_create_build_dir": "mkdir -p 
