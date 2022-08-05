@@ -18,3 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pishangujeniya/node-ts-express-boilerplate.git"
+  },
+  "keywords": [
+    "NodeTs",
+    "Express",
+    "API",
+    "Boilerplate
