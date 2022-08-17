@@ -30,4 +30,6 @@
   "dependencies": {
     "@types/bcrypt": "^3.0.0",
     "@types/bunyan": "^1.8.6",
-    "@types
+    "@types/cors": "^2.8.6",
+    "@types/fs-extra": "^8.0.1",
+    "@types/jsonw
