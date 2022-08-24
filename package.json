@@ -49,3 +49,5 @@
     "promise": "^8.1.0",
     "request": "^2.88.2",
     "rotating-file-stream": "^2.1.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
