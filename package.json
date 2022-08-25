@@ -50,4 +50,8 @@
     "request": "^2.88.2",
     "rotating-file-stream": "^2.1.1",
     "ts-node-dev": "^1.0.0-pre.44",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "urllib": "^2.35.0",
+    "util": "^0.12.3",
+    "uuid": "^8.1.0"
+  
