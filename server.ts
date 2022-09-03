@@ -6,4 +6,9 @@ var globalHelper = new GlobalHelper();
 
 var globalConfig = globalHelper.getConfig("global");
 
-var PORT = globalConfig["api_details"]["
+var PORT = globalConfig["api_details"]["api_port"];
+
+let app = new App();
+
+app.app.listen(PORT, () => {
+    BunyanH
