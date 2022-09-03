@@ -1,2 +1,4 @@
 {
-  "compilerOptio
+  "compilerOptions": {
+    /* Basic Options */
+    // "incremental": true,      
