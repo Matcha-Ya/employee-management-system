@@ -11,4 +11,5 @@ var PORT = globalConfig["api_details"]["api_port"];
 let app = new App();
 
 app.app.listen(PORT, () => {
-    BunyanH
+    BunyanHelper.activityLogger.info("Server running on : " + PORT);
+});
