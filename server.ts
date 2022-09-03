@@ -4,4 +4,6 @@ import { GlobalHelper } from './app/helpers/GlobalHelper';
 
 var globalHelper = new GlobalHelper();
 
-var globalConfig = globalHelpe
+var globalConfig = globalHelper.getConfig("global");
+
+var PORT = globalConfig["api_details"]["
