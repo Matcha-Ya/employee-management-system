@@ -2,4 +2,4 @@
   "compilerOptions": {
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
-    "target": "es5",              
+    "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default)
