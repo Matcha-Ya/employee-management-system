@@ -1,4 +1,5 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    // "incremental": true,      
+    // "incremental": true,                   /* Enable incremental compilation */
+    "target": "es5",              
