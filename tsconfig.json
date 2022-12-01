@@ -23,4 +23,4 @@
     // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
 
     /* Strict Type-Checking Options */
-    "st
+    "strict": true,                           /* Enable all strict type-
