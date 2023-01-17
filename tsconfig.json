@@ -34,4 +34,5 @@
 
     /* Additional Checks */
     // "noUnusedLocals": true,                /* Report errors on unused locals. */
-    // "noUnusedParameters": 
+    // "noUnusedParameters": true,            /* Report errors on unused parameters. */
+    // 
