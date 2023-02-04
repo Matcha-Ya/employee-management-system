@@ -39,4 +39,4 @@
     // "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
 
     /* Module Resolution Options */
-    // "moduleResolution": "node",    
+    // "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'class
